@@ -83,6 +83,9 @@ img {
     color: var(--color-base);
     border-color: var(--color-brand2);
 }
+.la-download{
+    color: var(--color-base2);
+}
 i{
     color:#deff58;
     position: relative;
@@ -168,6 +171,12 @@ text{
     
 }
 
+@media (min-width: 468px){
+    .full-height{
+        min-height: auto;
+    }
+}
+
 @media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
@@ -181,5 +190,8 @@ text{
     /* CONTENT WRAPPER */
     #content-wrapper {
         padding-left: var(--sidbar-width);
+    }
+    .full-height{
+        min-height: 100vh;
     }
 }
